@@ -16084,6 +16084,8 @@ with pkgs;
 
   ### MISC
 
+  amsel-suite - callPackage ../by-name/am/amsel-suite/default.nix
+
   antimicrox = libsForQt5.callPackage ../tools/misc/antimicrox { };
 
   autotiling = python3Packages.callPackage ../misc/autotiling { };
